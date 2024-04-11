@@ -3,10 +3,10 @@ import styled from "styled-components";
 export default function HeaderContainer() {
   return (
     <Header>
-      <img src="./images/avatar-jessica.jpeg" alt="user avatar" />
-      <h1>Jessica Randall</h1>
-      <span>London, United Kingdom</span>
-      <p>"Front-end developer and avid reader."</p>
+      <img src="https://avatars.githubusercontent.com/u/84536014?v=4 alt="user avatar" />
+      <h1>Mikhil Berishvili</h1>
+      <span>Tbilisi, Georgia</span>
+      <p>CEO & Founder of EasyDine | Software Developer @ TBC | Expertise in C# and .NET</p>
     </Header>
   );
 }
