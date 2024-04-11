@@ -8,6 +8,8 @@ function App() {
     { label: "LinkedIn", url: "https://www.linkedin.com/in/mberrish/" },
     { label: "Instagram", url: "https://www.instagram.com/mberrish/" },
     { label: "EasyDine", url: "https://easydine.ge" },
+    { label: "(+995)591-300-569", url: "tel:+995591300569" },
+    { label: "mikheil@easydine.ge", url: "mailto:mikheil@easydine.ge" },
     { label: "GitHub", url: "https://github.com/mberrishdev" }
   ];
 
