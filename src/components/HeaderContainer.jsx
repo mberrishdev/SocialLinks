@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function HeaderContainer() {
   return (
     <Header>
-      <img src="https://avatars.githubusercontent.com/u/84536014?v=4 alt="user avatar" />
+      <img src="https://avatars.githubusercontent.com/u/84536014?v=4" alt="user avatar" />
       <h1>Mikhil Berishvili</h1>
       <span>Tbilisi, Georgia</span>
       <p>CEO & Founder of EasyDine | Software Developer @ TBC | Expertise in C# and .NET</p>
