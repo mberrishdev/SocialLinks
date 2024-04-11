@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
-export default function ButtonsContainer({ children }) {
-  return <Button>{children} </Button>;
+export default function ButtonsContainer({ children, redirectTo }) {
+  return (
+    <Button href={redirectTo} target="_blank" rel="noopener noreferrer">
+      {children}
+    </Button>
+  );
 }
 
-const Button = styled.button`
+const Button = styled.a`
+  display: inline-block;
   height: 4rem;
   width: 30rem;
   border-radius: 0.5rem;
@@ -12,6 +17,9 @@ const Button = styled.button`
   background-color: hsl(0, 0%, 20%);
   color: white;
   font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  line-height: 4rem;
   cursor: pointer;
 
   &:hover {

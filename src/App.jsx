@@ -1,18 +1,26 @@
-import { useState } from "react";
 import styled from "styled-components";
 import HeaderContainer from "./components/HeaderContainer";
 import ButtonsContainer from "./components/ButtonsContainer";
 // import "./index.css";
 
 function App() {
-  const arr = ["GitHub", "Frontend Mentor", "LinkedIn", "Twitter", "Instagram"];
+  const buttonData = [
+    { label: "GitHub", url: "https://github.com/example" },
+    { label: "Frontend Mentor", url: "https://www.frontendmentor.io/" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/" },
+    { label: "Twitter", url: "https://twitter.com/" },
+    { label: "Instagram", url: "https://www.instagram.com/" },
+  ];
+
   return (
     <Container>
       <HeaderContainer />
       <Main>
-        {arr.map((element) => {
-          return <ButtonsContainer>{element}</ButtonsContainer>;
-        })}
+        {buttonData.map(({ label, url }) => (
+          <ButtonsContainer key={label} redirectTo={url}>
+            {label}
+          </ButtonsContainer>
+        ))}
       </Main>
     </Container>
   );
