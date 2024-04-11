@@ -5,11 +5,10 @@ import ButtonsContainer from "./components/ButtonsContainer";
 
 function App() {
   const buttonData = [
-    { label: "GitHub", url: "https://github.com/example" },
-    { label: "Frontend Mentor", url: "https://www.frontendmentor.io/" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/" },
-    { label: "Twitter", url: "https://twitter.com/" },
-    { label: "Instagram", url: "https://www.instagram.com/" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/mberrish/" },
+    { label: "Instagram", url: "https://www.instagram.com/mberrish/" },
+    { label: "EasyDine", url: "https://easydine.ge" },
+    { label: "GitHub", url: "https://github.com/mberrishdev" }
   ];
 
   return (
